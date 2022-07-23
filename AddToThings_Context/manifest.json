@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Add to Things 3 - Context Menu",
+	"description": "Add to Things 3 shortcut in the right-click menu, based on the Add to Things 3 browser extension",
+	"version": "1.0",
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	},
+	"action": {
+		"default_icon": "images/icon-128.png",
+		"default_title": "Add to Things 3 - Context Menu"
+	},
+	"permissions": ["contextMenus"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
